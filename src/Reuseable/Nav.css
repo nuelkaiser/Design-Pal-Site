@@ -1,0 +1,128 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 125px;
+    background: transparent;
+}
+
+.Nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.Nav-links a {
+    color: #FFF5F8;
+    text-decoration: none;
+    
+}
+
+.btn {
+    padding: 18px 19px;
+    background:  linear-gradient(180deg, #FF4090 0%, #FF406F 100%);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .Nav {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Nav {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 425px) {
+    .Nav {
+        padding: 30px 40px;
+    }
+
+    .Nav-links,
+    .btn {
+        display: none;
+    }
+
+    .mobile-nav {
+        background: url('../Reuseable/icon-hamburger.svg');
+        width: 30px;
+        height: 15px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .clicked {
+        background: url('../Reuseable/icon-close.svg');
+        width: 30px;
+        height: 15px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background: #fff;
+        top: -300px;
+        right: 50px;
+        left: 50px;
+        padding: 60px 40px;
+        border-radius: 8px;
+        transition: all ease-in-out 350ms;
+    }
+
+    .mobile-list {
+        list-style: none;
+        text-align: center;
+      }
+    
+    .mobile-list li {
+        padding-bottom: 20px;
+        color: #000;
+    }
+    
+    .mobile-list li:hover {
+        color: #FF406F;;
+    }
+
+      
+  .mobile.nav {
+    top: 65px;
+    transition: all ease-in-out 350ms;
+  }
+    
+     
+}
+
+@media (max-width: 320px) {
+    .Nav {
+        padding: 30px 13px;
+    }
+}

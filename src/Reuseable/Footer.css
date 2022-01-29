@@ -1,0 +1,116 @@
+
+
+.Founder {
+    background: #000;
+    margin-top: 240px;
+    position: relative;
+    padding: 70px 120px;
+}
+
+.Founder-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.Founder-img1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.Founder-img2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transform: rotate(180deg);
+}
+
+.Outro p {
+    color:  #FFF5F8;
+    max-width: 24vw;
+    margin-top: 23px;
+    line-height: 150%;
+}
+
+.Outro-links {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.Outro-links div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+
+}
+
+.Outro-links div img {
+    cursor: pointer;
+}
+
+.Outro-links p {
+    color: #A9A7A7;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.Founder-container {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .Outro p {
+        max-width: 33vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Outro p {
+        max-width: 40vw;
+        font-size: smaller;
+    }
+
+    .Founder {
+        padding: 72px 60px;
+    }
+
+    .Outro-links p {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 425px) {
+    .Founder-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Outro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Outro p {
+        max-width: 65vw;
+        font-size: small;
+        text-align: center
+    }
+}
+
+@media (max-width: 375px) {
+
+    .Founder-container {
+        gap: 3em;
+    }
+
+    .Outro {
+        margin-top: 22px;
+    }
+}
