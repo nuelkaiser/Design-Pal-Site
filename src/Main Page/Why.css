@@ -282,8 +282,8 @@ main {
 
     .tutor-container{
         flex-direction: column;
-        margin: auto;
-        transform: scale(.9);
+        margin-top: -135px;
+        transform: scale(.8);
         gap: 75px;
     }
 

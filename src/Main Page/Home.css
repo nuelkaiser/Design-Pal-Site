@@ -548,12 +548,9 @@ span.rod {
     }
     
     .intro h1 {
-        font-size: 27px;   
+        font-size: 31px;   
     }
 
-    .intro p {
-        font-size: x-small;
-    }
 
     .learn h4 {
         font-size: 12px;
@@ -633,13 +630,28 @@ span.rod {
         transform: scale(.7) rotate(21deg);
         margin-left: -43px;
     }
+
+    .designer-container {
+        transform: scale(.9);
+    }
 }
 
 @media (max-width: 375px) {
+    
+    .intro h1 {
+        font-size: 29px;
+    }
+
+    .intro p {
+        font-size: 11px;
+    }
+
     .about p {
         font-size: 8px;
     }
 
+
+    
     .success-stories div  p {
         font-size: smaller;
     }
