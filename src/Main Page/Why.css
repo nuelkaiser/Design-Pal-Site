@@ -297,6 +297,12 @@ main {
     }
 }
 
+@media (max-width: 325px) {
+    .tutor-intro {
+        width: 80vw;
+    }
+}
+
 @media (max-width: 320px) {
     .why-container {
         padding: 80px 13px;

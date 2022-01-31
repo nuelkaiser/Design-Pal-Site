@@ -392,7 +392,7 @@ span.rod {
 
 .register-now p {
     line-height: 29px;
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
@@ -486,12 +486,17 @@ span.rod {
 }
 
 @media (max-width: 768px) {
+
+    .intro {
+        height: 90vh;
+    }
+
     .intro h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .intro p {
-        font-size: smaller;
+        font-size: initial;
     }
 
     .learn div {
@@ -549,6 +554,10 @@ span.rod {
     
     .intro h1 {
         font-size: 31px;   
+    }
+
+    .intro p {
+        font-size: smaller;
     }
 
 

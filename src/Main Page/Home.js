@@ -40,7 +40,7 @@ function Intro() {
                             stars.
                         </h1>
                         <p className='intro-word'>
-                            Design Pal is an ambitious attepmt to change the way <br />  of education in Africa.
+                            Design Pal is an ambitious attempt to change the way <br />  of education in Africa.
                             it's the bridge between <br /> learing to design and becoming the best in the world.
                         </p>
 
