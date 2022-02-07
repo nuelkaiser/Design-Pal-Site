@@ -75,7 +75,8 @@ function Why() {
                 </div>
             </main>
             <section className='tutor'>
-                <Zoom right>
+
+                <Zoom left>
                     <div className='tutor-intro'>
                         <h1>
                             Meet Our Tutors
@@ -92,7 +93,9 @@ function Why() {
                         <img src={Curly} alt='curly arrow' className='curly' />
                         <img src={Curl} alt='curly arrow' />
                     </div>
+                </Zoom>
 
+                <Zoom left>
                     <div className='new-change'>
                         <section className='tutor-container'>
                             <div className='tech-money'>
@@ -189,8 +192,8 @@ function Why() {
                             </div>
                         </section>
                     </div>
-                </Zoom>
 
+                </Zoom>
                 <Register />
                 <Footer src={Founder}
                     Twitter={Twitter}
