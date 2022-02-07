@@ -116,6 +116,7 @@ a {
   .mobile.nav {
     top: 65px;
     transition: all ease-in-out 350ms;
+    z-index: 100;
   }
     
      

@@ -28,6 +28,10 @@ import Register from '../Reuseable/Register';
 import Footer from '../Reuseable/Footer';
 import Insta from '../First Page/Icons/Insta.jpg';
 import Message from '../First Page/Icons/Message.jpg';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
+
+
 function Why() {
     return (
         <>
@@ -35,153 +39,157 @@ function Why() {
                 <div className='why'>
                     <Nav />
                     <section className='why-container'>
-                        <div className='why-us-container'>
-                            <div className='why-us'>
-                                <div>
-                                    <h1>
-                                        <span>Why</span> choose <span>us?</span>
-                                    </h1>
-                                    <p>
-                                        Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal
-                                        In publishing and graphic design , Lorem ipsum is a placeholder text
-                                    </p>
+                        <Slide left>
+                            <div className='why-us-container'>
+                                <div className='why-us'>
+                                    <div>
+                                        <h1>
+                                            <span>Why</span> choose <span>us?</span>
+                                        </h1>
+                                        <p>
+                                            Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal
+                                            In publishing and graphic design , Lorem ipsum is a placeholder text
+                                        </p>
+                                    </div>
+                                    <img src={CurlyArrow} alt='Curly Arrow' />
                                 </div>
-                                <img src={CurlyArrow} alt='Curly Arrow' />
+
+                                <div className='LoveUp-container'>
+                                    <Headings src={LoveUp} alt={'Love Up'} />
+                                    <Headings src={LoveUp} alt={'Love Up'} />
+                                    <Headings src={LoveUp} alt={'Love Up'} />
+
+                                    <img src={Blue} className='blue' alt='Navy Blue Arrow' />
+                                </div>
                             </div>
-
-                            <div className='LoveUp-container'>
-                                <Headings src={LoveUp} alt={'Love Up'} />
-                                <Headings src={LoveUp} alt={'Love Up'} />
-                                <Headings src={LoveUp} alt={'Love Up'} />
-
-                                <img src={Blue} className='blue' alt='Navy Blue Arrow' />
+                        </Slide>
+                        <Slide right>
+                            <div className='Attention-container'>
+                                <Attention src={Founder} alt={'Founder Pen'} />
+                                <Attention2 src={Founder} alt={'Founder Pen'} />
+                                <Attention3 src={Founder} alt={'Founder Pen'} />
+                                <img className='White' src={White} alt='White Celeb' />
                             </div>
-                        </div>
-
-                        <div className='Attention-container'>
-                            <Attention src={Founder} alt={'Founder Pen'} />
-                            <Attention2 src={Founder} alt={'Founder Pen'} />
-                            <Attention3 src={Founder} alt={'Founder Pen'} />
-
-                            <img className='White' src={White} alt='White Celeb' />
-                        </div>
+                        </Slide>
                     </section>
                 </div>
             </main>
             <section className='tutor'>
-                <div className='tutor-intro'>
-                    <h1>
-                        Meet Our Tutors
-                    </h1>
-                    <p>
-                        Using Lorem ipsum to focus attention on graphic elements in a webpage design proposaL.
-                        Using Lorem ipsum to focus attention on graphic elements in a webpage design proposaL.
-                    </p>
+                <Zoom right>
+                    <div className='tutor-intro'>
+                        <h1>
+                            Meet Our Tutors
+                        </h1>
+                        <p>
+                            Using Lorem ipsum to focus attention on graphic elements in a webpage design proposaL.
+                            Using Lorem ipsum to focus attention on graphic elements in a webpage design proposaL.
+                        </p>
 
-                    <img src={Gp} alt='Girl Power' />
-                </div>
+                        <img src={Gp} alt='Girl Power' />
+                    </div>
 
-                <div className='pointer'>
-                    <img src={Curly} alt='curly arrow' className='curly' />
-                    <img src={Curl} alt='curly arrow' />
-                </div>
+                    <div className='pointer'>
+                        <img src={Curly} alt='curly arrow' className='curly' />
+                        <img src={Curl} alt='curly arrow' />
+                    </div>
 
-                <div className='new-change'>
-                    <section className='tutor-container'>
-                        <div className='tech-money'>
-                            <img className='image' src={Wifey} alt='wifey material' />
-                            <div className='tut'>
-                                <h3>OlwaKemi Adeleke</h3>
-                                <img src={United} alt='USA' />
+                    <div className='new-change'>
+                        <section className='tutor-container'>
+                            <div className='tech-money'>
+                                <img className='image' src={Wifey} alt='wifey material' />
+                                <div className='tut'>
+                                    <h3>OlwaKemi Adeleke</h3>
+                                    <img src={United} alt='USA' />
+                                </div>
+                                <p>
+                                    Senior Product Designer, Popcrn Incoporated. Los Angeles, California.
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer, Popcrn Incoporated. Los Angeles, California.
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
 
-                        <div className='tech-money middle-man'>
-                            <img className='image' src={Cool} alt='wifey material' />
-                            <div className='tut'>
-                                <h3>Tega Emma Okerhe</h3>
-                                <img src={France} alt='France' />
+                            <div className='tech-money middle-man'>
+                                <img className='image' src={Cool} alt='wifey material' />
+                                <div className='tut'>
+                                    <h3>Tega Emma Okerhe</h3>
+                                    <img src={France} alt='France' />
+                                </div>
+                                <p>
+                                    Senior Product Designer, Sendcloud. Eindhoven, Netherland.
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer, Sendcloud. Eindhoven, Netherland.
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
 
-                        <div className='tech-money'>
-                            <img className='image' src={SoftBoy} alt='wifey material' />
-                            <div className='tut'>
-                                <h3>Adedapo Adeshina</h3>
-                                <img src={Britain} alt='UK' />
+                            <div className='tech-money'>
+                                <img className='image' src={SoftBoy} alt='wifey material' />
+                                <div className='tut'>
+                                    <h3>Adedapo Adeshina</h3>
+                                    <img src={Britain} alt='UK' />
+                                </div>
+                                <p>
+                                    Senior Product Designer, GetWelp. London, UK
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer, GetWelp. London, UK
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
 
-                    </section>
+                        </section>
 
-                    <section className='tutor-container tut-2'>
-                        <div className='tech-money'>
-                            <img className='image' src={SoftDark} alt='Dark Designer' />
-                            <div className='tut'>
-                                <h3>Sammie Akwe</h3>
-                                <img src={Nigeria} alt='Nigeria' />
+                        <section className='tutor-container tut-2'>
+                            <div className='tech-money'>
+                                <img className='image' src={SoftDark} alt='Dark Designer' />
+                                <div className='tut'>
+                                    <h3>Sammie Akwe</h3>
+                                    <img src={Nigeria} alt='Nigeria' />
+                                </div>
+                                <p>
+                                    Senior Product Designer and Illustrator, Sterling Bank. Lagos, Nigeria.
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer and Illustrator, Sterling Bank. Lagos, Nigeria.
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
 
-                        <div className='tech-money middle-man'>
-                            <img className='image' src={BritishMula} alt='wifey material' />
-                            <div className='tut'>
-                                <h3>Parklins Ifeanyichuckwu</h3>
-                                <img src={Britain} alt='Britain' />
+                            <div className='tech-money middle-man'>
+                                <img className='image' src={BritishMula} alt='wifey material' />
+                                <div className='tut'>
+                                    <h3>Parklins Ifeanyichuckwu</h3>
+                                    <img src={Britain} alt='Britain' />
+                                </div>
+                                <p>
+                                    Senior Product Designer, Sendcloud. Eindhoven, Netherland.
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer, Sendcloud. Eindhoven, Netherland.
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
 
-                        <div className='tech-money'>
-                            <img className='image' src={Wifey} alt='wifey material' />
-                            <div className='tut'>
-                                <h3>OlwaKemi Adeleke</h3>
-                                <img src={United} alt='USA' />
+                            <div className='tech-money'>
+                                <img className='image' src={Wifey} alt='wifey material' />
+                                <div className='tut'>
+                                    <h3>OlwaKemi Adeleke</h3>
+                                    <img src={United} alt='USA' />
+                                </div>
+                                <p>
+                                    Senior Product Designer, Popcrn Incoporated. Los Angeles, California.
+                                </p>
+                                <div className='media'>
+                                    <img src={Twitter} alt='Twitter' />
+                                    <img src={Linkedin} alt='Linkedin' />
+                                </div>
                             </div>
-                            <p>
-                                Senior Product Designer, Popcrn Incoporated. Los Angeles, California.
-                            </p>
-                            <div className='media'>
-                                <img src={Twitter} alt='Twitter' />
-                                <img src={Linkedin} alt='Linkedin' />
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                        </section>
+                    </div>
+                </Zoom>
 
                 <Register />
                 <Footer src={Founder}

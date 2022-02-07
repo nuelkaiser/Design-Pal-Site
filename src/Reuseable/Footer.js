@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import Logo from './Logo';
+import Fade from 'react-reveal/Fade';
 
 function Footer({ src, Twitter, Linkedin, Insta, Message }) {
     return (
@@ -9,28 +10,32 @@ function Footer({ src, Twitter, Linkedin, Insta, Message }) {
             <img className='Founder-img2' src={src} alt='Founder Pen' />
 
             <section className='Founder-container'>
-                <div className='Outro'>
-                    <Logo />
+                <Fade left>
+                    <div className='Outro'>
+                        <Logo />
 
-                    <p>
-                        Design Pal is an ambitious attempt to change the way education is done in Africa.
-                        It's the bridge between learning to design and becoming the best in the world.
-                    </p>
+                        <p>
+                            Design Pal is an ambitious attempt to change the way education is done in Africa.
+                            It's the bridge between learning to design and becoming the best in the world.
+                        </p>
 
-                </div>
-
-                <div className='Outro-links'>
-                    <div>
-                        <img src={Message} alt='Message' />
-                        <img src={Twitter} alt='Twitter' />
-                        <img src={Linkedin} alt='Linkedin' />
-                        <img src={Insta} alt='Insta' />
                     </div>
+                </Fade>
 
-                    <p>
-                        Copyright &copy; 2022. Design Pally, All rights reserved.
-                    </p>
-                </div>
+                <Fade right>
+                    <div className='Outro-links'>
+                        <div>
+                            <img src={Message} alt='Message' />
+                            <img src={Twitter} alt='Twitter' />
+                            <img src={Linkedin} alt='Linkedin' />
+                            <img src={Insta} alt='Insta' />
+                        </div>
+
+                        <p>
+                            Copyright &copy; 2022. Design Pally, All rights reserved.
+                        </p>
+                    </div>
+                </Fade>
             </section>
 
         </div>
