@@ -53,6 +53,20 @@ a {
     }
 }
 
+@media (max-width: 540px) {
+    .Nav {
+        padding: 20px 30px;
+    }
+
+    .Nav-links {
+        font-size: 7px;
+    }
+
+    .btn {
+        font-size: 7px;
+    }
+}
+
 @media (max-width: 425px) {
     .Nav {
         padding: 30px 40px;

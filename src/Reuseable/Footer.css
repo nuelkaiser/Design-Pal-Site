@@ -85,6 +85,20 @@
     }
 }
 
+@media (max-width: 540px) {
+    .Founder {
+        padding: 72px 30px;
+    }
+
+    .Outro p {
+        font-size: small;
+    }
+
+    .Outro-links p {
+        font-size: 8px;
+    }
+}
+
 @media (max-width: 425px) {
     .Founder-container {
         flex-direction: column;
@@ -102,6 +116,10 @@
         font-size: small;
         text-align: center
     }
+
+    .Outro-links p {
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -112,5 +130,11 @@
 
     .Outro {
         margin-top: 22px;
+    }
+}
+
+@media (max-width: 280px) {
+    .Founder {
+        padding: 72px 20px;
     }
 }

@@ -391,7 +391,7 @@ span.rod {
 }
 
 .register-now p {
-    line-height: 29px;
+    line-height: 16px;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -419,12 +419,12 @@ span.rod {
 }
 
 .a-2 {
-    right: 60px;
+    right: 30px;
     bottom: -20px;
 }
 
 .a-3 {
-    right: 60px;
+    right: 30px;
     top: -10px;
 }
 
@@ -446,7 +446,7 @@ span.rod {
     }
 
     .learn div {
-        gaP: 9em;
+        gap: 4em;
     }
 
     .about p {
@@ -545,6 +545,67 @@ span.rod {
     }
 }
 
+@media (max-width: 540px) {
+    .learn h4 {
+        text-align: center;
+    }
+
+    .learn div {
+        gap: 2em;
+        transform: scale(.7);
+    }
+
+    .about p {
+        font-size: 7px;
+    }
+
+    .soft-boy {
+        right: -17px;
+    }
+
+    .soft-girl {
+        bottom: -5px;
+    }
+
+    .value-words {
+        margin-right: 9px;
+    }
+
+    .mission p,
+    .vision p {
+        font-size: 6px;
+        line-height: 8px;
+    }
+
+    .tech {
+        display: none;
+    }
+
+    .register-now p {
+        font-size: xx-small;
+        line-height: 14px;
+    }
+
+    .join-container {
+        margin: 42px -10px;
+    }
+
+    .a-3, 
+    .a-1 {
+        top: 0px;
+    }
+
+    .a-1,
+    .a-4 {
+        left: 30px;
+    }
+
+    .a-2,
+    .a-4 {
+        bottom: 0px;
+    }
+}
+
 @media (max-width: 425px) {
     
     .intro {
@@ -576,7 +637,7 @@ span.rod {
     }
 
     .about p {
-        font-size: xx-small;
+        font-size: 7px;
     }
 
     .pink-arrow {
@@ -610,7 +671,8 @@ span.rod {
 
     .mission p,
     .vision p {
-        font-size: initial;
+        font-size: small;
+        line-height: inherit;
     }
 
     .tech {
@@ -659,7 +721,9 @@ span.rod {
         font-size: 8px;
     }
 
-
+    .success-stories div h1 {
+        text-align: center;
+    }
     
     .success-stories div  p {
         font-size: smaller;
@@ -672,6 +736,12 @@ span.rod {
 }
 
 @media (max-width: 320px) {
+
+    .intro h1 {
+        font-size: 25px;
+    }
+
+
     .intro {
         padding: 80px 13px;
     }
@@ -719,5 +789,206 @@ span.rod {
 
     .a-2 {
         right: 30px;
+    }
+}
+
+@media (max-width: 280px) {
+    .intro {
+        padding: 30px 13px; 
+        height: 45vh;
+    }
+
+    .intro h1 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .learn div {
+        transform: scale(.43);
+    }
+
+    .about p {
+        font-size: 5px;
+    }
+
+    .soft-girl {
+        bottom: -7px;
+    }
+
+    .mission p,
+    .vision p {
+        font-size: small;
+    }
+
+    .register-now p {
+        font-size: 9px;
+    }
+
+    .btn-change {
+        font-size: 10px;
+    }
+
+} 
+
+
+
+/*MAX-HEIGHT MEDIA QUERIES*/
+
+@media (max-height: 920px) {
+    .intro {
+        height: 45vh;
+    }
+
+    .register-now {
+        padding: 175px 30px;
+    }
+
+    .register-now p {
+        font-size: small;
+    }
+
+    
+    .a-3, 
+    .a-1 {
+        top: 80px;
+    }
+
+    span.rod {
+        height: 15vh;
+    }
+
+    .border-span::before {
+        top: -30px;
+    }
+    
+    .a-2,
+    .a-4 {
+        bottom: 80px;
+    }
+}
+
+
+
+@media (max-height: 800px) {
+    .intro {
+        height: 84vh;
+    }
+
+    .register-now {
+        padding: 125px 70px;
+    }
+
+    .a-3, 
+    .a-1 {
+        top: 30px;
+    }
+
+    .a-2,
+    .a-4 {
+        bottom: 30px;
+    }
+}
+
+@media (max-height: 740px) {
+    .intro {
+        height: 50vh;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 6px;
+    }
+
+    span.rod {
+        height: 18vh;
+    }
+
+    .register-now {
+        padding: 125px 22px;
+    }
+
+}
+
+@media (max-height: 720px) {
+
+    .intro {
+        padding: 77px 30px;
+    }
+
+    
+
+    .pink-arrow {
+        left: 60px;
+    }
+
+    .border-span::before {
+        top: -24px;
+    }
+
+    .designer-container div p {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .a-1,
+    .a-3 {
+        top: 0px;
+    }
+
+    .a-2,
+    .a-4 {
+        bottom: 0px;
+    }
+}
+
+@media (max-height: 670px) {
+    .intro {
+        height: 60vh;
+    }
+    
+    span.rod {
+        height: 20vh;
+    }
+}
+
+@media (max-height: 600px) {
+
+    .intro {
+        height: initial;
+        padding: 80px 125px;
+    }
+
+    .intro h1 {
+        font-size: 55px;
+    }
+
+    .register-now {
+        padding: 70px 22px;
+    }
+
+    .designer-container div p {
+        font-size: smaller;
+        line-height: initial;
+    }
+
+    .about p {
+        font-size: initial;
+    }
+
+    .a-1,
+    .a-3 {
+        top: -10px;
+    }
+
+    .a-2,
+    .a-4 {
+        bottom: -10px;
+    }
+
+    span.rod {
+        height: 22vh;
     }
 }
