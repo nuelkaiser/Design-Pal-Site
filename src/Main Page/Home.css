@@ -686,6 +686,7 @@ span.rod {
 
     .register-now {
         padding: 70px 30px;
+        height: initial;
     }
 
     .register-now p {
