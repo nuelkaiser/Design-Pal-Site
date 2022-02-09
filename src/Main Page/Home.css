@@ -702,6 +702,18 @@ span.rod {
         margin-left: -43px;
     }
 
+
+    .success-stories div {
+        gap: 6px;
+    }
+
+    .success-stories div p {
+        font-size: small;
+    }
+    .success-stories div h1 {
+        font-size: 27px;
+    }
+
     .designer-container {
         transform: scale(.9);
     }
@@ -833,162 +845,3 @@ span.rod {
 
 
 /*MAX-HEIGHT MEDIA QUERIES*/
-
-@media (max-height: 920px) {
-    .intro {
-        height: 45vh;
-    }
-
-    .register-now {
-        padding: 175px 30px;
-    }
-
-    .register-now p {
-        font-size: small;
-    }
-
-    
-    .a-3, 
-    .a-1 {
-        top: 80px;
-    }
-
-    span.rod {
-        height: 15vh;
-    }
-
-    .border-span::before {
-        top: -30px;
-    }
-    
-    .a-2,
-    .a-4 {
-        bottom: 80px;
-    }
-}
-
-
-
-@media (max-height: 800px) {
-    .intro {
-        height: 84vh;
-    }
-
-    .register-now {
-        padding: 125px 70px;
-    }
-
-    .a-3, 
-    .a-1 {
-        top: 30px;
-    }
-
-    .a-2,
-    .a-4 {
-        bottom: 30px;
-    }
-}
-
-@media (max-height: 740px) {
-    .intro {
-        height: 50vh;
-    }
-
-    .intro h1 {
-        font-size: 28px;
-    }
-
-    .about p {
-        font-size: 6px;
-    }
-
-    span.rod {
-        height: 18vh;
-    }
-
-    .register-now {
-        padding: 125px 22px;
-    }
-
-}
-
-@media (max-height: 720px) {
-
-    .intro {
-        padding: 77px 30px;
-    }
-
-    
-
-    .pink-arrow {
-        left: 60px;
-    }
-
-    .border-span::before {
-        top: -24px;
-    }
-
-    .designer-container div p {
-        font-size: 7px;
-        line-height: 8px;
-    }
-
-    .a-1,
-    .a-3 {
-        top: 0px;
-    }
-
-    .a-2,
-    .a-4 {
-        bottom: 0px;
-    }
-}
-
-@media (max-height: 670px) {
-    .intro {
-        height: 60vh;
-    }
-    
-    span.rod {
-        height: 20vh;
-    }
-}
-
-@media (max-height: 600px) {
-
-    .intro {
-        height: initial;
-        padding: 80px 125px;
-    }
-
-    .intro h1 {
-        font-size: 55px;
-    }
-
-    .register-now {
-        padding: 70px 22px;
-    }
-
-    .designer-container div p {
-        font-size: smaller;
-        line-height: initial;
-    }
-
-    .about p {
-        font-size: initial;
-    }
-
-    .a-1,
-    .a-3 {
-        top: -10px;
-    }
-
-    .a-2,
-    .a-4 {
-        bottom: -10px;
-    }
-
-    span.rod {
-        height: 22vh;
-    }
-}

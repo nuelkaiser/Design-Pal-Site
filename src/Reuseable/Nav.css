@@ -41,6 +41,23 @@ a {
     text-decoration: none;
 }
 
+.white {
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+    color: #fff;
+}
+
 @media (max-width: 1024px) {
     .Nav {
         padding: 20px 60px;
